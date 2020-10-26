@@ -1,0 +1,107 @@
+*{margin: 0; padding: 0}
+
+.logo{
+    max-width: 200px;
+    position: absolute;
+    background-color: black;
+}
+.logo:hover{
+    background-color: #A5DC05;
+}
+
+header {background-color: #01B0CC; font-size: 25px; padding: 10px; text-align: center; font-family: 'Kumbh Sans', sans-serif; margin-left: auto; margin-right: auto}
+
+a {color: black; margin-right: auto; margin-left: auto; }
+
+.nombresitio {color: black; text-decoration: none; font-size: 30px; font-family: 'Kumbh Sans', sans-serif; margin-right: auto; margin-left: auto; text-align: center;}
+
+header nav a {background-color: black; color: white; text-decoration: none; display: inline-block; margin: 5px; padding: 5px}
+
+header nav a:hover {background-color: #A5DC05; color: white;}
+
+h1 {font-family: 'Kumbh Sans', sans-serif; ; border-bottom:3px; text-align:center }
+
+h2 {text-align: center; }
+
+
+img {width: 90%; margin: auto; display: block;}
+
+section {padding: 50px}
+
+nav ul {list-style: none;}
+
+nav ul li {display: inline;}
+
+div {background-color: white; text-align: center; color: black; display: flex; flex-flow: wrap;align-self: center;}
+
+.caja3columnas {background-color: white; text-align: center ; width: 31.3%; margin: 1%}
+
+.teorias {padding-left: 100px; color: black; font-size: 35px; stroke: 8px; text-decoration: none; ; padding-top: 5px; display: inline-block; margin: 5px}
+
+.videos {padding-left: 100px; color: black; font-size: 35px; stroke: 8px; text-decoration: none; ; padding-top: 5px; display: inline-block; margin: 5px}
+
+.noticias {padding-left: 100px; color: black; font-size: 35px; stroke: 8px; text-decoration: none; ; padding-top: 5px; display: inline-block; margin: 5px}
+
+body {background-color: black; color: white ; font-family: 'Kumbh Sans', sans-serif; font-size: 30px }
+
+section {background-color: white; font-family: 'Kumbh Sans', sans-serif; color: black}
+
+.cajasincolumna {background-color: black; color:white; width: 100%; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; justify-content: center;}
+
+.textos {padding-top: 30px; padding-bottom: 30px; text-align: center; justify-content: center;}
+
+.cajawatch {height: 50px ;width: 400px; color: black; background-color: #A5DC05 ; margin: 0px auto; font-family: 'Kumbh Sans', sans-serif; text-align: center; display: flex; align-content: center; margin-top: 20px; }
+.cajawatch:hover {background-color: #01B0CC}
+
+a {color: black; display: flex; align-content: center; margin-left: auto; margin-right: auto; font-family: 'Kumbh Sans', sans-serif; font-size: xx-large}
+
+.Cajaleer {width: 400px; color: black; background-color: #A5DC05 ; margin: 0px auto; font-family: 'Kumbh Sans', sans-serif; text-align: center; display: flex; }
+.Cajaleer:hover {background-color: #01B0CC}
+
+.centrado{justify-content: center;}
+
+.sizeVideo{
+    width: 450px;
+    height: 315px
+}
+
+
+footer {background-color: black; color: white; font-size: small ; text-align: center;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*estilos para tabletas*/
+@media(max-width:768px) {}
+
+/*estilos para celulares*/
+@media (max-width: 480px){}
+
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 100%;
+    }
+  }
