@@ -112,8 +112,15 @@ footer {background-color: black; color: white; font-size: small ; text-align: ce
   max-width: 100%;
 }
 
+.cardHorizontal{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-top: 30px;
+}
 
-
+.cardHorizontal:hover{
+  background-color: cornsilk;
+}
 
 .column {
   float: left;
