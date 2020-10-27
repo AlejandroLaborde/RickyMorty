@@ -23,6 +23,8 @@ h1 {font-family: 'Kumbh Sans', sans-serif; ; border-bottom:3px; text-align:cente
 
 h2 {text-align: center; }
 
+h6 { color: gray; }
+
 
 img {width: 90%; margin: auto; display: block;}
 
@@ -75,6 +77,7 @@ a {color: black; display: flex; align-content: center; margin-left: auto; margin
     width: 450px;
     height: 315px
 }
+
 
 
 footer {background-color: black; color: white; font-size: small ; text-align: center;}
@@ -142,6 +145,17 @@ footer {background-color: black; color: white; font-size: small ; text-align: ce
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   translate: -3px;
+}
+
+.cardNoticia{
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  translate: -3px;
+  padding: 20px;
 }
 .card:hover{
   transform: scale(0.95);
