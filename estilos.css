@@ -9,69 +9,213 @@
     background-color: #A5DC05;
 }
 
-header {background-color: #01B0CC; font-size: 25px; padding: 10px; text-align: center; font-family: 'Kumbh Sans', sans-serif; margin-left: auto; margin-right: auto}
+header {
+    background-color: #01B0CC; 
+    font-size: 25px; 
+    padding: 10px; 
+    text-align: center; 
+    font-family: 'Kumbh Sans', sans-serif; 
+    margin-left: auto; 
+    margin-right: auto
+}
 
-a {color: black; margin-right: auto; margin-left: auto; }
+a {
+  color: black; 
+  margin-right: auto; 
+  margin-left: auto; 
+}
 
-.nombresitio {color: black; text-decoration: none; font-size: 30px; font-family: 'Kumbh Sans', sans-serif; margin-right: auto; margin-left: auto; text-align: center;}
+.nombresitio {
+  color: black; 
+  text-decoration: none; 
+  font-size: 30px; 
+  font-family: 'Kumbh Sans', sans-serif; 
+  margin-right: auto; 
+  margin-left: auto; 
+  text-align: center;
+}
 
-header nav a {background-color: black; color: white; text-decoration: none; display: inline-block; margin: 5px; padding: 5px}
+header nav a {
+  background-color: black; 
+  color: white;
+  text-decoration: none; 
+  display: inline-block; 
+  margin: 5px; 
+  padding: 5px
+}
 
-header nav a:hover {background-color: #A5DC05; color: white;}
+header nav a:hover {
+  background-color: #A5DC05; 
+  color: white;
+}
 
-h1 {font-family: 'Kumbh Sans', sans-serif; ; border-bottom:3px; text-align:center }
+h1 {
+  font-family: 'Kumbh Sans', sans-serif; 
+  border-bottom:3px; 
+  text-align:center 
+}
 
-h2 {text-align: center; }
+h2 {
+  text-align: center; 
+}
 
-h6 { color: gray; }
+h6 { 
+  color: gray; 
+
+}
 
 
-img {width: 90%; margin: auto; display: block;}
+img {
+  width: 90%; 
+  margin: auto; 
+  display: block;
+}
 
-p{font-size: medium}
+p{
+  font-size: medium
+}
 
-section {padding: 50px}
+section {
+  padding: 50px
+}
 
-nav ul {list-style: none;}
+nav ul {
+  list-style: none;
+}
 
-nav ul li {display: inline;}
+nav ul li {
+  display: inline;
+}
 
-div {background-color: white; text-align: center; color: black; display: flex; flex-flow: wrap;align-self: center;}
+div {
+  background-color: white; 
+  text-align: center; 
+  color: black; 
+  display: flex; 
+  flex-flow: wrap;
+  align-self: center;
+}
 
-.caja3columnas {background-color: white; text-align: center ; width: 31.3%; margin: 1%}
+.caja3columnas {
+  background-color: white; 
+  text-align: center ; 
+  width: 31.3%; 
+  margin: 1%
+}
 
-.teorias {padding-left: 100px; color: black; font-size: 35px; stroke: 8px; text-decoration: none; ; padding-top: 5px; display: inline-block; margin: 5px}
+.teorias {
+  padding-left: 100px; 
+  color: black; 
+  font-size: 35px; 
+  stroke: 8px; 
+  text-decoration: none;
+  padding-top: 5px; 
+  display: inline-block; 
+  margin: 5px}
 
 .teorias:hover{
   text-shadow: 0 0 3px #FF0000, 0 0 5px #FF0000;
 }
 
-.videos {padding-left: 100px; color: black; font-size: 35px; stroke: 8px; text-decoration: none; ; padding-top: 5px; display: inline-block; margin: 5px}
+.videos {
+  padding-left: 100px; 
+  color: black; 
+  font-size: 35px; 
+  stroke: 8px; 
+  text-decoration: none;
+  padding-top: 5px; 
+  display: inline-block; 
+  margin: 5px}
 
 .videos:hover{
   text-shadow: 0 0 3px #FF0000, 0 0 5px #FF0000;
 }
-.noticias {padding-left: 100px; color: black; font-size: 35px; stroke: 8px; text-decoration: none; ; padding-top: 5px; display: inline-block; margin: 5px}
+.noticias {
+  padding-left: 100px; 
+  color: black; 
+  font-size: 35px; 
+  stroke: 8px; 
+  text-decoration: none;  
+  padding-top: 5px; 
+  display: inline-block; 
+  margin: 5px
+}
 .noticias:hover{
   text-shadow: 0 0 3px #FF0000, 0 0 5px #FF0000;
 }
-body {background-color: black; color: white ; font-family: 'Kumbh Sans', sans-serif; font-size: 30px }
+body {
+  background-color: black; 
+  color: white ; 
+  font-family: 'Kumbh Sans', sans-serif; 
+  font-size: 30px 
+}
 
-section {background-color: white; font-family: 'Kumbh Sans', sans-serif; color: black}
+section {
+  background-color: white; 
+  font-family: 'Kumbh Sans', sans-serif; 
+  color: black
+}
 
-.cajasincolumna {background-color: black; color:white; width: 100%; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; justify-content: center;}
+.cajasincolumna {
+  background-color: black; 
+  color:white; 
+  width: 100%; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  padding-left: 5px; 
+  justify-content: center;
+}
 
-.textos {padding-top: 30px; padding-bottom: 30px; text-align: center; justify-content: center;}
+.textos {
+  padding-top: 30px; 
+  padding-bottom: 30px; 
+  text-align: center; 
+  justify-content: center;
+}
 
-.cajawatch {height: 50px ;width: 400px; color: black; background-color: #A5DC05 ; margin: 0px auto; font-family: 'Kumbh Sans', sans-serif; text-align: center; display: flex; align-content: center; margin-top: 20px; }
-.cajawatch:hover {background-color: #01B0CC}
+.cajawatch {
+  height: 50px ;
+  width: 400px; 
+  color: black; 
+  background-color: #A5DC05 ; 
+  margin: 0px auto; 
+  font-family: 'Kumbh Sans', sans-serif; 
+  text-align: center;
+   display: flex; 
+  align-content: center; 
+  margin-top: 20px; }
 
-a {color: black; display: flex; align-content: center; margin-left: auto; margin-right: auto; font-family: 'Kumbh Sans', sans-serif; font-size: xx-large}
+.cajawatch:hover {
+  background-color: #01B0CC
+}
 
-.Cajaleer { border-radius: 10px; width: 400px; color: black; background-color: #A5DC05 ; margin: 0px auto; font-family: 'Kumbh Sans', sans-serif; text-align: center; display: flex; }
-.Cajaleer:hover {background-color: #01B0CC}
+a {
+  color: black; 
+  display: flex; 
+  align-content: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+  font-family: 'Kumbh Sans', sans-serif; 
+  font-size: xx-large
+}
 
-.centrado{justify-content: center;}
+.Cajaleer { 
+  border-radius: 10px; 
+  width: 400px; 
+  color: black; 
+  background-color: #A5DC05 ; 
+  margin: 0px auto; 
+  font-family: 'Kumbh Sans', sans-serif; 
+  text-align: center; 
+  display: flex; 
+}
+.Cajaleer:hover {
+  background-color: #01B0CC
+}
+
+.centrado{
+  justify-content: center;
+}
 
 .sizeVideo{
     width: 450px;
@@ -80,7 +224,12 @@ a {color: black; display: flex; align-content: center; margin-left: auto; margin
 
 
 
-footer {background-color: black; color: white; font-size: small ; text-align: center;}
+footer {
+  background-color: black; 
+  color: white; 
+  font-size: small ; 
+  text-align: center;}
+  
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -113,6 +262,11 @@ footer {background-color: black; color: white; font-size: small ; text-align: ce
 .imgGaleria:hover{
   transform: scale(1.6);
   max-width: 100%;
+}
+
+.imgCard{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .cardHorizontal{
