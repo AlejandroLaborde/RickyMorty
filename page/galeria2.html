@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" type="text/css" href="../estilos.css">
+
+</head>
+<body>
+	<header>
+		<a href="../index.html" style="width: 300px;"><img style="max-height: 100%;" src="../images/logo.png" alt=""> </a>
+		
+		<nav>
+			<ul id="mibarra" class="barratop">
+				<li><a href="../page/teorias.html">Teorias</a></li>
+				<li><a href="../page/videos.html">Videos</a></li>
+				<li><a href="../page/noticias.html">Noticias</a></li>
+				<li><a href="../page/galeria.html">Galería</a></li>
+			</ul>
+		</nav>
+    </header>
+	<section id="galeria">
+
+			
+		<div class="container">
+
+		
+			<div class="misImagenes">
+			<div class="numbertext">1 / 8</div>
+			<img src="../images/Imagen1.jpg" style="width:100%">
+			</div>
+		
+			<div class="misImagenes">
+			<div class="numbertext">2 / 8</div>
+			<img src="../images/Imagen2.jpg" style="width:100%">
+			</div>
+
+			<div class="misImagenes">
+			<div class="numbertext">3 / 8</div>
+			<img src="../images/Imagen3.jpg" style="width:100%">
+			</div>
+
+			<div class="misImagenes">
+			<div class="numbertext">4 / 8</div>
+			<img src="../images/Imagen4.jpg" style="width:100%">
+			</div>
+			
+
+			<div class="misImagenes">
+			<div class="numbertext">5 / 8</div>
+			<img src="../images/Imagen6.jpg" style="width:100%">
+			</div>
+
+			<div class="misImagenes">
+			<div class="numbertext">6 / 8</div>
+			<img src="../images/Imagen9.jpg" style="width:100%">
+			</div>
+			<div class="misImagenes">
+			<div class="numbertext">7 / 8</div>
+			<img src="../images/Imagen11.jpg" style="width:100%">
+			</div>
+			<div class="misImagenes">
+			<div class="numbertext">8 / 8</div>
+			<img src="../images/Imagen12.jpg" style="width:100%">
+			</div>
+
+			<a class="prev" onclick="anterior(-1)">❮</a>
+			<a class="next" onclick="siguente(1)">❯</a>
+
+		</div>
+
+			<div class="filaGaleria">
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen1.jpg" style="width:100%;padding: 3px;" onclick="selecciona(1)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen2.jpg" style="width:100%;padding: 3px;" onclick="selecciona(2)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen3.jpg" style="width:100%;padding: 3px;" onclick="selecciona(3)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen4.jpg" style="width:100%;padding: 3px;" onclick="selecciona(4)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen5.jpg" style="width:100%;padding: 3px;" onclick="selecciona(5)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen6.jpg" style="width:100%;padding: 3px;" onclick="selecciona(6)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen9.jpg" style="width:100%;padding: 3px;" onclick="selecciona(7)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen11.jpg" style="width:100%;padding: 3px;" onclick="selecciona(8)" alt="">
+				</div>
+				<div class="columnaGaleria">
+					<img class="demo shadow" src="../images/Imagen12.jpg" style="width:100%;padding: 3px;" onclick="selecciona(9)" alt="">
+				</div>
+				
+			</div>
+		
+		<!-- Script para el manejo de las imagenes -->
+		<script>
+		var slideIndex = 1;
+		mostrar(slideIndex);
+		
+		function siguente(n) {
+			mostrar(slideIndex += n);
+		}
+		function anterior(n) {
+			mostrar(slideIndex -= n);
+		}
+		
+		function selecciona(n) {
+			mostrar(slideIndex = n);
+		}
+		
+		function mostrar(n) {
+			var i;
+			var slides = document.getElementsByClassName("misImagenes");
+			var dots = document.getElementsByClassName("demo");
+			var captionText = document.getElementById("caption");
+			if (n > slides.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+		</script>
+	</section>
+   
+
+    <footer>Clara Berraz 2020</footer>
+
+</body>
+</html>
